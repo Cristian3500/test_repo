@@ -1,0 +1,15 @@
+1. npm i bootstrap@5.3.7
+2. Angular.json/styles "node_modules/bootstrap/dist/css/bootstrap.min.css"
+3. ng g c components/navbar
+4. ng g c components/agregarEditarComentario
+5. ng g c components/listComentarios 
+6. app.html add listComentarios and integrate with ts file in imports.
+7. ng g i interfaces/comentario 
+8. ng g s services/comentario
+9. add navbar of bootstrap in the component navbar.
+10. add code for listComentarios.html and add container in app.componets for main app
+11. add button "Nuevo comentario" in listComentarios.
+12. add table in listComentarios with class table table-hover mt-3, with 5 columns
+13. add var listComentarios in componet ts listComentarios of type comentario interface.
+14. use *ngFor=let comentario of  and user interpolation {{  }}
+15. add conditions @if (listComentarios.length === 0)

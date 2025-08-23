@@ -1,0 +1,41 @@
+<div class="row mt-3">
+  <div class="col-lg-6">
+    <h5>Listado de comentarios</h5>
+  </div>
+  <div class="col-lg-6">
+    <button class="btn btn-primary float-end">Agregar Comentarios</button>
+  </div>
+</div>
+
+
+
+<table class="table table-hover mt-3">
+    <tr>
+        <td>Titulo</td>
+        <td>Creador</td>
+        <td>Fecha</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tbody>
+        <tr>
+            <td>Comentario 1</td>
+            <td>Usuario 1</td>
+            <td>01/01/2023</td>
+            <td><button class="btn btn-warning">Editar</button></td>
+            <td><button class="btn btn-danger">Eliminar</button></td>
+        </tr>
+        <tr>
+            <td>Comentario 2</td>
+            <td>Usuario 2</td>
+            <td>02/01/2023</td>
+            <td><button class="btn btn-warning">Editar</button></td>
+            <td><button class="btn btn-danger">Eliminar</button></td>
+        </tr>
+    </tbody>
+</table>
+@if (listComentarios.length === 0){
+<div class="row mt-5">
+    <h5>No hay comentarios disponibles</h5>
+</div>
+}
