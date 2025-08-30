@@ -33,3 +33,11 @@ git push -u origin main
 17. Add routerLink in button add new comment in listComentarios.
 18. Import RouterLink in ts for listComentarios.
 19. Add HTML for Comentario.
+
+1. Installar Docker en su computadora.
+2. Dockerizar el proyecto actual de angular.
+    a. Crear un archivo docker-compose.yml, (Crear una cuenta en docker hub.)
+    b. Crear presentación
+    c. Explicar a detalle el funcionamiento del archivo docker-compose.yml
+    d. Levantar el proyecto con docker.
+3. VPS (Linux -> Ubuntu) y acceder al VPS  por SSH.
