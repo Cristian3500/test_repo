@@ -1,3 +1,19 @@
+// Instalación de Angular
+npm install -g @angular/cli
+// Creación de proyecto
+ng new nombre-del-proyecto
+// Iniciar proyecto
+npm start ó ng serve
+// Generación de componentes
+ng generate component usuario    -      ng g c usuario
+// Versionamiento en GIT
+git init
+git remote add origin URL-del-repositorio
+git add .
+git commit -m "Proyecto Angular inicial"
+git push -u origin main
+
+// Proyecto de Clase
 1. npm i bootstrap@5.3.7
 2. Angular.json/styles "node_modules/bootstrap/dist/css/bootstrap.min.css"
 3. ng g c components/navbar
@@ -13,3 +29,7 @@
 13. add var listComentarios in componet ts listComentarios of type comentario interface.
 14. use *ngFor=let comentario of  and user interpolation {{  }}
 15. add conditions @if (listComentarios.length === 0)
+16. Add routes in the app.routes.ts and edit app.cofig.ts
+17. Add routerLink in button add new comment in listComentarios.
+18. Import RouterLink in ts for listComentarios.
+19. Add HTML for Comentario.

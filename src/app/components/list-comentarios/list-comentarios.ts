@@ -8,5 +8,7 @@ import { Comentario } from '../../interfaces/comentario';
   styleUrl: './list-comentarios.scss'
 })
 export class ListComentarios {
-  listComentarios: Comentario[] = [];
+  listComentarios: Comentario[] = [
+    //{ titulo: 'Comentario 1', creador: 'Usuario 1', texto: 'Comentario de prueba', fechaCreacion: new Date('2023-01-01') }
+  ];
 }
