@@ -33,11 +33,32 @@ git push -u origin main
 17. Add routerLink in button add new comment in listComentarios.
 18. Import RouterLink in ts for listComentarios.
 19. Add HTML for Comentario.
+20. Agregar el routerLink en el vinculo del logotipo del navbar.
+Semana 8
+21. Agregar ReactiveFormsModule en app.cofig.ts 
+22. Agregar codigo de formulario en el constructor de agregarEditarComentario.
+23. Bindear el form group con el formulario html.
+24. Agrega ReactiveFormsModule al import de agregarEditarComentario para poder Bindear.
+25. Agregar el (ngSubmit) y el tipo submit al boton así como la funcion agregar.
+26. Crear un objeto de tipo comentario y setear los valores del formulario.
+27. Agregar mensajes de validación en los campos de los formularios.
+28. Redireccionar de listComentarios a verComentarios
+29. Agrega html y codigo de verComentario.
+---------------------------------------------------------------------------------------------
+Parte del despliegue del proyecto.
 
+Dockerización del Proyectos:
 1. Installar Docker en su computadora.
 2. Dockerizar el proyecto actual de angular.
     a. Crear un archivo docker-compose.yml, (Crear una cuenta en docker hub.)
     b. Crear presentación
     c. Explicar a detalle el funcionamiento del archivo docker-compose.yml
     d. Levantar el proyecto con docker.
+VPS:
 3. VPS (Linux -> Ubuntu) y acceder al VPS  por SSH.
+
+Integración de GitHub Actios.
+1. Instalación de docker en el VPS.
+2. Generar un clave publica y privada para el VPS.
+3. Generar un workflows: .github/workflows/deploy.yml
+4. Progar el pipeline creado.
