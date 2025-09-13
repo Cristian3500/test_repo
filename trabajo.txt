@@ -33,7 +33,6 @@ git push -u origin main
 17. Add routerLink in button add new comment in listComentarios.
 18. Import RouterLink in ts for listComentarios.
 19. Add HTML for Comentario.
-20. Agregar el routerLink en el vinculo del logotipo del navbar.
 Semana 8
 21. Agregar ReactiveFormsModule en app.cofig.ts 
 22. Agregar codigo de formulario en el constructor de agregarEditarComentario.
@@ -42,8 +41,19 @@ Semana 8
 25. Agregar el (ngSubmit) y el tipo submit al boton así como la funcion agregar.
 26. Crear un objeto de tipo comentario y setear los valores del formulario.
 27. Agregar mensajes de validación en los campos de los formularios.
-28. Redireccionar de listComentarios a verComentarios
+Semana 9
+20. Agregar el routerLink en el vinculo del logotipo del navbar.
+28. Redireccionar de listComentarios a verComentarios (Por vinculo)
 29. Agrega html y codigo de verComentario.
+30. Crear proyecto Asp.Net Core Api en Visual Studio Community  (https://localhost:7162/openapi/v1.json)
+31. Agregar Scalar.AspNetCore para el API y configurar Program.cs y launchSettings.json agregando Scalar (https://localhost:44309/scalar/)
+32. Agregar controlador ComentarioController
+33. Instalar Entity Framework Core, Entity Framework Tools, Entity Framework Core Sql Server
+34. Agregar Carpeta Models y Clase (Modelo) Comentario.cs
+35. Agregar clase AplicationDbContext.cs y configurar el DbSet y el constructor.
+36. Agregar la cadena de conexión en appsettings.json
+36. Agregar la configuración de la DB en Program.cs y generar la migración Add-Migration v1.0.0
+37. Migrar a la DB: Update-database
 ---------------------------------------------------------------------------------------------
 Parte del despliegue del proyecto.
 
